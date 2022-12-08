@@ -1,0 +1,26 @@
+{
+  "name": "aknet-balance-check-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "engines": {
+    "node": "18.12",
+    "npm": "8.19"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  }
+}
